@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
@@ -33,9 +33,9 @@ a:hover {
 }
 
 .avatar {
-  width: 200px;
+  width: 300px;
   border-radius: 28px;
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .info {
@@ -94,6 +94,7 @@ a:hover {
    border: none;
    font-family: inherit;
    cursor: pointer;
+   margin-left: 20px;
 }
 
  .btn:hover {
@@ -162,11 +163,13 @@ a:hover {
     width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
+    margin-left: 0px;
   }
 
 .form-group label {
   display: block;
   font-size: 14px;
+  margin-left: 20px;
   color: #86898f;
 }
 
@@ -181,4 +184,5 @@ a:hover {
   padding: 15px 0 10px;
   outline: none;
   font-family: inherit;
+  margin-left: 20px;
 }
